@@ -94,10 +94,10 @@ const Hero = () => {
             style={{
                 background: `linear-gradient(to bottom, ${skyColour.top} 10%, ${skyColour.middle} 75%, ${skyColour.bottom} 100%)`,
             }}
-            className='h-[90vh] pt-[120px] flex'
+            className='pt-[120px] flex flex-col lg:flex-row pb-7'
         >
             {/* Info */}
-            <div className='text-white flex flex-col gap-6 p-9 w-1/2'>
+            <div className='text-white flex flex-col gap-6 p-9 lg:w-1/2 '>
                 <div className='text-6xl flex flex-col gap-2'>
                     <h1>Hello, I&apos;m </h1>
                     <h1 className='font-nacelle-heavy '>Juan Miguel Sanchez</h1>
@@ -110,13 +110,13 @@ const Hero = () => {
                 </p>
             </div>
             {/* Picture */}
-            <div className='w-1/2 relative'>
+            <div className='lg:w-1/2 relative flex justify-center items-center'>
                 <Image
                     src={paperRectangle}
                     alt='Paper background'
-                    className='absolute ml-10 w-130 h-120'
+                    className='absolute w-130 h-120'
                 />
-                <div className='relative w-130 h-120 ml-6'>
+                <div className='relative w-130 h-120'>
                     <ImageSwitcher images={[sit1, sit2, sit3, sit2]} />
                 </div>
             </div>

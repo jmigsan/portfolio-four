@@ -31,7 +31,7 @@ const Projects = () => {
                 <h1 className='text-6xl font-nacelle-heavy pt-14'>Projects</h1>
 
                 {/* Project 1 */}
-                <div className='flex'>
+                <div className='flex flex-col-reverse md:flex-row'>
                     <div className='w-105 flex items-center justify-center'>
                         <Image
                             src={houseDemo}
@@ -170,7 +170,7 @@ const Projects = () => {
                 )}
 
                 {/* Project 2 */}
-                <div className='flex'>
+                <div className='flex flex-col md:flex-row'>
                     <div className='flex flex-col w-105'>
                         <div className='w-60 h-60 ml-20'>
                             <ImageSwitcher images={[table1, table2]} />
@@ -272,7 +272,7 @@ const Projects = () => {
                 )}
 
                 {/* Project 3 */}
-                <div className='flex'>
+                <div className='flex flex-col-reverse md:flex-row'>
                     <div className='w-105 flex items-center justify-center'>
                         <Image src={vrDemo} alt='VR demo' className='p-5' />
                     </div>

@@ -21,6 +21,8 @@
     --font-nacelle-heavy: "Nacelle Heavy", sans-serif;
     --font-nacelle-regular: "Nacelle Regular", sans-serif;
     --font-courier-prime: "Courier Prime", monospace;
+    --breakpoint-xs: 30rem;
+    --breakpoint-md: 60rem;
 }
 
 body {

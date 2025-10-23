@@ -12,7 +12,7 @@ const Contact = () => {
                 <h1 className='text-6xl font-nacelle-heavy py-14'>
                     Contact Me
                 </h1>
-                <div className='flex justify-center'>
+                <div className='flex justify-center flex-col md:flex-row'>
                     <div>
                         <div className='flex flex-col gap-8 text-4xl'>
                             <div>

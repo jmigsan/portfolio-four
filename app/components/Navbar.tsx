@@ -4,7 +4,7 @@ import tornUpNavbar from "../assets/torn-up-navbar.png";
 
 const Navbar = () => {
     return (
-        <div className='flex justify-center fixed top-0 w-full text-lg z-100'>
+        <div className='flex justify-center fixed top-0 w-full text-lg z-30'>
             <nav className='m-2 w-[620px] h-[100px] relative'>
                 <Image
                     src={tornUpNavbar}

@@ -7,7 +7,6 @@ import sit1 from "@/app/assets/sit1.png";
 import sit2 from "@/app/assets/sit2.png";
 import sit3 from "@/app/assets/sit3.png";
 import paperRectangle from "@/app/assets/paper-rectangle.png";
-import paperNotebook from "@/app/assets/paper-notebook.png";
 
 const Hero = () => {
     const dawnTop = "#03204c";
@@ -100,7 +99,7 @@ const Hero = () => {
             {/* Info */}
             <div className='text-white flex flex-col gap-6 p-9 w-1/2'>
                 <div className='text-6xl flex flex-col gap-2'>
-                    <h1>Hello, I'm </h1>
+                    <h1>Hello, I&apos;m </h1>
                     <h1 className='font-nacelle-heavy '>Juan Miguel Sanchez</h1>
                 </div>
                 <p className='text-xl'>

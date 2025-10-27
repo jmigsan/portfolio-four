@@ -1,26 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap");
 @import "tailwindcss";
 
-@font-face {
-    font-family: "Nacelle Heavy";
-    font-style: normal;
-    font-weight: 800;
-    font-display: swap;
-    src: url("/assets/Nacelle-Heavy.otf") format("otf");
-}
-
-@font-face {
-    font-family: "Nacelle Regular";
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url("/assets/Nacelle-Regular.otf") format("otf");
-}
-
 @theme inline {
-    --font-nacelle-heavy: "Nacelle Heavy", sans-serif;
-    --font-nacelle-regular: "Nacelle Regular", sans-serif;
     --font-courier-prime: "Courier Prime", monospace;
+    --font-nacelle-regular: var(--font-nacelle-regular);
+    --font-nacelle-heavy: var(--font-nacelle-heavy);
     --breakpoint-xs: 30rem;
     --breakpoint-md: 60rem;
 }
